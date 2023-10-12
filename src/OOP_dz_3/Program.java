@@ -14,9 +14,9 @@ public class Program {
         String name = names[(random.nextInt(names.length))];
 
         int salary = random.nextInt(50000, 120000);
-        int hourlyRate = random.nextInt(1000, 20000);
+        int hourlyRate = random.nextInt(1000, 50000);
 
-        int age = random.nextInt(25, 60);
+        int age = random.nextInt(25, 40);
 
         int employeeType = random.nextInt(2);
 
